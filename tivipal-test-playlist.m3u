@@ -18,10 +18,10 @@ https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 # MOVIES (VOD - STATIC MP4 LINKS)
 # ============================================================
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/young-frankenstein-colorized-1974-720p" group-title="Movies - Comedy", Young Frankenstein (Colorized, 1974)
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/young-frankenstein-colorized-1974-720p" group-title="Movies", Young Frankenstein (1974)
 https://archive.org/download/young-frankenstein-colorized-1974-720p/Young%20Frankenstein%20%28Colorized%2C%201974%29%20720p.mp4
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/deadly-mantis-1957-colorized" group-title="Movies - Sci-Fi", Deadly Mantis (Colorized, 1957)
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/deadly-mantis-1957-colorized" group-title="Movies", Deadly Mantis (1957)
 https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957%20colorized.mp4
 
 
@@ -29,8 +29,8 @@ https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957
 # TV SERIES / SHOWS (VOD - EPISODIC STRUCTURE)
 # ============================================================
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series - Benson S01", S01E01 - Change
+#EXTINF:-1 tvg-type="series" series-id="benson" tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series", Benson - S01E01 - Change
 https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E01_Change.mp4
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series - Benson S01", S01E02 - Trust Me
+#EXTINF:-1 tvg-type="series" series-id="benson" tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series", Benson - S01E02 - Trust Me
 https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E02_Trust%20Me.mp4
