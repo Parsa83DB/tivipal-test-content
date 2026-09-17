@@ -1,17 +1,166 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml"
 
 # ============================================================
-# LIVE TV STREAMS (HLS / M3U8)
+# LIVE TV STREAMS (50 FREE-TO-AIR & TEST CHANNELS)
 # ============================================================
 
+# --- SPORTS & OUTDOORS ---
 #EXTINF:-1 tvg-id="" tvg-name="30A Golf" tvg-logo="https://30a-tv.com/images/30atvlogo.png" group-title="Live TV - Sports", 30A Golf Kingdom (720p)
 https://30a-tv.com/feeds/vidaa/golf.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Africa24 Sport" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", Africa 24 Sport (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="Red Bull TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/Red_Bull_TV_logo.png" group-title="Live TV - Sports", Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/591070/GEO_GLOBAL_FAST/master_1080p30.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="World Poker Tour" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", World Poker Tour
+https://wpt-wpt-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Edgesport" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", Edgesport
+https://amg01269-evvision-edge-evvision-37651.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Outdoor Channel FAST" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", Outdoor Channel FAST
+https://outdoorchannel-xumo.amagi.tv/playlist.m3u8
+
+
+# --- NEWS & DOCUMENTARY ---
 #EXTINF:-1 tvg-id="" tvg-name="NASA TV" tvg-logo="https://i.imgur.com/G2KzN04.png" group-title="Live TV - News & Tech", NASA TV Public Stream
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Euronews English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/23/Euronews_logo.png" group-title="Live TV - News & Tech", Euronews English
+https://euronews-euronews-english-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ABC News Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/ABC_News_logo_2021.svg" group-title="Live TV - News & Tech", ABC News Live
+https://abcnews-live.akamaized.net/hls/live/2020286/abcnews/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CBS News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/19/CBS_News_2020.svg" group-title="Live TV - News & Tech", CBS News 24/7
+https://cbsn-us.cbsnstream.cbsnews.com/main/dl/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Bloomberg_Television_logo.svg" group-title="Live TV - News & Tech", Bloomberg Television
+https://live-bloomberg-us.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/70/Al_Jazeera_English_logo.svg" group-title="Live TV - News & Tech", Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/Deutsche_Welle_Logo.svg" group-title="Live TV - News & Tech", DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/France_24_logo.svg" group-title="Live TV - News & Tech", France 24 English
+https://static.france24.com/live/F24_EN_LO_HLS/live_tv.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/TRT_World_logo.svg" group-title="Live TV - News & Tech", TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/NHK_World_Japan_logo.svg" group-title="Live TV - News & Tech", NHK World Japan
+https://nhkworld.akamaized.net/hls/live/2000392/nhkworld/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="CGTN Global" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/CGTN_logo.svg" group-title="Live TV - News & Tech", CGTN English
+https://livestream.cgtn.com/100/prog_index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky News Free" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Sky_News_2018_logo.svg" group-title="Live TV - News & Tech", Sky News International
+https://skynews-skynews-international-1-gb.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="C-SPAN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a6/C-SPAN_logo.svg" group-title="Live TV - News & Tech", C-SPAN 1
+https://cspan1-hls.akamaized.net/hls/live/2003884/cspan1/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Newsmax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/Newsmax_logo.svg" group-title="Live TV - News & Tech", Newsmax TV
+https://newsmax-fast.amagi.tv/playlist.m3u8
+
+
+# --- MOVIES & ENTERTAINMENT ---
+#EXTINF:-1 tvg-id="" tvg-name="FilmRise Free Movies" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", FilmRise Free Movies
+https://filmrise-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FilmRise Action" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", FilmRise Action Movies
+https://filmrise-action-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Shout! TV" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", Shout! Factory TV
+https://shoutfactory-shoutfactorytv-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="MST3K Channel" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", Mystery Science Theater 3000
+https://shoutfactory-mst3k-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="RiffTrax" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", RiffTrax Channel
+https://shoutfactory-rifftrax-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FailArmy" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", FailArmy
+https://jukin-failarmy-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="The Pet Collective" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", The Pet Collective
+https://jukin-thepetcollective-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="People Are Awesome" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", People Are Awesome
+https://jukin-peopleareawesome-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Doctor Who FAST" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", Classic Doctor Who Channel
+https://bbc-doctorwho-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Baywatch Channel" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", Baywatch 24/7
+https://fremantle-baywatch-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Pluto Drama" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", Cine Drama TV
+https://amg01008-amg01008c2-cine-us-3329.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Buzzr" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Entertainment", Buzzr Retro Game Shows
+https://fremantle-buzzr-1-us.samsung.wurl.tv/manifest.m3u8
+
+
+# --- MUSIC & CULTURE ---
+#EXTINF:-1 tvg-id="" tvg-name="Clubbing TV" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Music", Clubbing TV
+https://clubbingtv-clubbingtv-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Stingray Karaoke" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Music", Stingray Karaoke
+https://stingray-karaoke-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Qello Concerts" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Music", Stingray Qello Concerts
+https://stingray-qelloconcerts-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Classica HD" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Music", Stingray Classica
+https://stingray-classica-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Trace Urban" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Music", Trace Urban
+https://trace-traceurban-1-us.samsung.wurl.tv/manifest.m3u8
+
+
+# --- LIFESTYLE, FOOD & TRAVEL ---
+#EXTINF:-1 tvg-id="" tvg-name="Tastemade" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Lifestyle", Tastemade Food & Travel
+https://tastemade-tastemade-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Bon Appetit" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Lifestyle", Bon Appétit Channel
+https://condenast-bonappetit-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Vogue Channel" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Lifestyle", Vogue TV
+https://condenast-vogue-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="GQ Channel" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Lifestyle", GQ TV
+https://condenast-gq-1-us.samsung.wurl.tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Wired Channel" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Lifestyle", Wired Science & Tech
+https://condenast-wired-1-us.samsung.wurl.tv/manifest.m3u8
+
+
+# --- HLS TEST & CODEC STREAMS ---
+#EXTINF:-1 tvg-id="" tvg-name="Apple Advanced HLS Test" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Apple BipBop Advanced (fMP4/AAC)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Apple HEVC HLS Test" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Apple 4K HEVC HDR Test
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Akamai Test Stream" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Akamai HD Stream
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Tears of Steel 1080p" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Tears of Steel (HLS Loop)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Big Buck Bunny HLS" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Big Buck Bunny (Multi-bitrate)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Sintel HLS Stream" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Sintel Open Movie Loop
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Unified Streaming Test" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Dev Test Streams", Unified Streaming Multi-audio
+https://demo.unified-streaming.com/k8s/features/stable/video/zinc/zinc.ism/.m3u8
 
 
 # ============================================================
@@ -24,13 +173,212 @@ https://archive.org/download/young-frankenstein-colorized-1974-720p/Young%20Fran
 #EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/deadly-mantis-1957-colorized" group-title="Movies", Deadly Mantis (1957)
 https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957%20colorized.mp4
 
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Night_of_the_Living_Dead_720p" group-title="Movies", Night of the Living Dead (1968)
+https://archive.org/download/Night_of_the_Living_Dead_720p/Night_of_the_Living_Dead_720p.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/charade_1963_720p" group-title="Movies", Charade (1963)
+https://archive.org/download/charade_1963_720p/charade_1963_720p.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/his_girl_friday_720p" group-title="Movies", His Girl Friday (1940)
+https://archive.org/download/his_girl_friday_720p/his_girl_friday_720p.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/TheGeneral1926" group-title="Movies", The General (1926)
+https://archive.org/download/TheGeneral1926/TheGeneral.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Carnival_of_Souls_1962_720p" group-title="Movies", Carnival of Souls (1962)
+https://archive.org/download/Carnival_of_Souls_1962_720p/Carnival_of_Souls.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/House_on_Haunted_Hill_1959_720p" group-title="Movies", House on Haunted Hill (1959)
+https://archive.org/download/House_on_Haunted_Hill_1959_720p/House_on_Haunted_Hill.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Plan_9_from_Outer_Space_1959_720p" group-title="Movies", Plan 9 from Outer Space (1959)
+https://archive.org/download/Plan_9_from_Outer_Space_1959_720p/Plan_9_from_Outer_Space.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/The_Little_Shop_of_Horrors_1960" group-title="Movies", The Little Shop of Horrors (1960)
+https://archive.org/download/The_Little_Shop_of_Horrors_1960/The_Little_Shop_of_Horrors.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/D.O.A._1949" group-title="Movies", D.O.A. (1949)
+https://archive.org/download/D.O.A._1949/D.O.A..mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Royal_Wedding_1951" group-title="Movies", Royal Wedding (1951)
+https://archive.org/download/Royal_Wedding_1951/Royal_Wedding.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/My_Man_Godfrey_1936" group-title="Movies", My Man Godfrey (1936)
+https://archive.org/download/My_Man_Godfrey_1936/My_Man_Godfrey.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Gullivers_Travels_1939" group-title="Movies", Gulliver's Travels (1939)
+https://archive.org/download/Gullivers_Travels_1939/Gullivers_Travels.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/The_Phantom_of_the_Opera_1925" group-title="Movies", The Phantom of the Opera (1925)
+https://archive.org/download/The_Phantom_of_the_Opera_1925/The_Phantom_of_the_Opera.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Nosferatu_1922" group-title="Movies", Nosferatu (1922)
+https://archive.org/download/Nosferatu_1922/Nosferatu.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Metropolis_1927" group-title="Movies", Metropolis (1927)
+https://archive.org/download/Metropolis_1927/Metropolis.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/The_Cabinet_of_Dr_Caligari_1920" group-title="Movies", The Cabinet of Dr. Caligari (1920)
+https://archive.org/download/The_Cabinet_of_Dr_Caligari_1920/The_Cabinet_of_Dr_Caligari.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/The_Outlaw_1943" group-title="Movies", The Outlaw (1943)
+https://archive.org/download/The_Outlaw_1943/The_Outlaw.mp4
+
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://archive.org/services/img/Reefer_Madness_1936" group-title="Movies", Reefer Madness (1936)
+https://archive.org/download/Reefer_Madness_1936/Reefer_Madness.mp4
+
 
 # ============================================================
 # TV SERIES / SHOWS (VOD - EPISODIC STRUCTURE)
 # ============================================================
 
+# --- BENSON (1979) ---
 #EXTINF:-1 tvg-type="series" series-id="benson" tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series", Benson - S01E01 - Change
 https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E01_Change.mp4
 
 #EXTINF:-1 tvg-type="series" series-id="benson" tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series", Benson - S01E02 - Trust Me
 https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E02_Trust%20Me.mp4
+
+
+# --- THE BEVERLY HILLBILLIES (1962) ---
+#EXTINF:-1 tvg-type="series" series-id="beverly-hillbillies" tvg-logo="https://archive.org/services/img/BeverlyHillbillies_S01E01" group-title="Series", The Beverly Hillbillies - S01E01 - The Clampetts Strike Oil
+https://archive.org/download/BeverlyHillbillies_S01E01/BeverlyHillbillies_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="beverly-hillbillies" tvg-logo="https://archive.org/services/img/BeverlyHillbillies_S01E01" group-title="Series", The Beverly Hillbillies - S01E02 - Getting Settled
+https://archive.org/download/BeverlyHillbillies_S01E02/BeverlyHillbillies_S01E02.mp4
+
+
+# --- SHERLOCK HOLMES (1954) ---
+#EXTINF:-1 tvg-type="series" series-id="sherlock-holmes-1954" tvg-logo="https://archive.org/services/img/Sherlock_Holmes_S01E01_The_Case_of_the_Cunningham_Heritage" group-title="Series", Sherlock Holmes - S01E01 - The Case of the Cunningham Heritage
+https://archive.org/download/Sherlock_Holmes_S01E01_The_Case_of_the_Cunningham_Heritage/Sherlock_Holmes_S01E01_The_Case_of_the_Cunningham_Heritage.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="sherlock-holmes-1954" tvg-logo="https://archive.org/services/img/Sherlock_Holmes_S01E01_The_Case_of_the_Cunningham_Heritage" group-title="Series", Sherlock Holmes - S01E02 - The Case of Lady Beryl
+https://archive.org/download/Sherlock_Holmes_S01E02_The_Case_of_Lady_Beryl/Sherlock_Holmes_S01E02_The_Case_of_Lady_Beryl.mp4
+
+
+# --- FLASH GORDON (1954) ---
+#EXTINF:-1 tvg-type="series" series-id="flash-gordon-1954" tvg-logo="https://archive.org/services/img/FlashGordon1954S01E01" group-title="Series", Flash Gordon - S01E01 - Planet X
+https://archive.org/download/FlashGordon1954S01E01/FlashGordon1954S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="flash-gordon-1954" tvg-logo="https://archive.org/services/img/FlashGordon1954S01E01" group-title="Series", Flash Gordon - S01E02 - Escape Into Time
+https://archive.org/download/FlashGordon1954S01E02/FlashGordon1954S01E02.mp4
+
+
+# --- THE DICK VAN DYKE SHOW (1961) ---
+#EXTINF:-1 tvg-type="series" series-id="dick-van-dyke" tvg-logo="https://archive.org/services/img/DickVanDykeS01E01" group-title="Series", The Dick Van Dyke Show - S01E01 - Sick Boy and the Sitter
+https://archive.org/download/DickVanDykeS01E01/DickVanDykeS01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="dick-van-dyke" tvg-logo="https://archive.org/services/img/DickVanDykeS01E01" group-title="Series", The Dick Van Dyke Show - S01E02 - My Blonde-Haired Brunette
+https://archive.org/download/DickVanDykeS01E02/DickVanDykeS01E02.mp4
+
+
+# --- DRAGNET (1951) ---
+#EXTINF:-1 tvg-type="series" series-id="dragnet-1951" tvg-logo="https://archive.org/services/img/Dragnet_S01E01" group-title="Series", Dragnet - S01E01 - The Human Bomb
+https://archive.org/download/Dragnet_S01E01/Dragnet_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="dragnet-1951" tvg-logo="https://archive.org/services/img/Dragnet_S01E01" group-title="Series", Dragnet - S01E02 - The Rifle
+https://archive.org/download/Dragnet_S01E02/Dragnet_S01E02.mp4
+
+
+# --- THE LUCY SHOW (1962) ---
+#EXTINF:-1 tvg-type="series" series-id="lucy-show" tvg-logo="https://archive.org/services/img/LucyShowS01E01" group-title="Series", The Lucy Show - S01E01 - Lucy Waits Up for Chris
+https://archive.org/download/LucyShowS01E01/LucyShowS01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="lucy-show" tvg-logo="https://archive.org/services/img/LucyShowS01E01" group-title="Series", The Lucy Show - S01E02 - Lucy Digs a Well
+https://archive.org/download/LucyShowS01E02/LucyShowS01E02.mp4
+
+
+# --- BONANZA (1959) ---
+#EXTINF:-1 tvg-type="series" series-id="bonanza" tvg-logo="https://archive.org/services/img/Bonanza_S01E01" group-title="Series", Bonanza - S01E01 - A Rose for Lotta
+https://archive.org/download/Bonanza_S01E01/Bonanza_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="bonanza" tvg-logo="https://archive.org/services/img/Bonanza_S01E01" group-title="Series", Bonanza - S01E02 - The Sun Mountain Herd
+https://archive.org/download/Bonanza_S01E02/Bonanza_S01E02.mp4
+
+
+# --- THE LONE RANGER (1949) ---
+#EXTINF:-1 tvg-type="series" series-id="lone-ranger" tvg-logo="https://archive.org/services/img/LoneRanger_S01E01" group-title="Series", The Lone Ranger - S01E01 - Enter the Lone Ranger
+https://archive.org/download/LoneRanger_S01E01/LoneRanger_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="lone-ranger" tvg-logo="https://archive.org/services/img/LoneRanger_S01E01" group-title="Series", The Lone Ranger - S01E02 - The Lone Ranger Fights On
+https://archive.org/download/LoneRanger_S01E02/LoneRanger_S01E02.mp4
+
+
+# --- ONE STEP BEYOND (1959) ---
+#EXTINF:-1 tvg-type="series" series-id="one-step-beyond" tvg-logo="https://archive.org/services/img/OneStepBeyond_S01E01" group-title="Series", One Step Beyond - S01E01 - The Bride Possessed
+https://archive.org/download/OneStepBeyond_S01E01/OneStepBeyond_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="one-step-beyond" tvg-logo="https://archive.org/services/img/OneStepBeyond_S01E01" group-title="Series", One Step Beyond - S01E02 - Night of April 14th
+https://archive.org/download/OneStepBeyond_S01E02/OneStepBeyond_S01E02.mp4
+
+
+# --- THE CISCO KID (1950) ---
+#EXTINF:-1 tvg-type="series" series-id="cisco-kid" tvg-logo="https://archive.org/services/img/CiscoKid_S01E01" group-title="Series", The Cisco Kid - S01E01 - Boomerang
+https://archive.org/download/CiscoKid_S01E01/CiscoKid_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="cisco-kid" tvg-logo="https://archive.org/services/img/CiscoKid_S01E01" group-title="Series", The Cisco Kid - S01E02 - Counterfeit Money
+https://archive.org/download/CiscoKid_S01E02/CiscoKid_S01E02.mp4
+
+
+# --- TALES OF TOMORROW (1951) ---
+#EXTINF:-1 tvg-type="series" series-id="tales-of-tomorrow" tvg-logo="https://archive.org/services/img/TalesOfTomorrow_S01E01" group-title="Series", Tales of Tomorrow - S01E01 - Verdict from Space
+https://archive.org/download/TalesOfTomorrow_S01E01/TalesOfTomorrow_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="tales-of-tomorrow" tvg-logo="https://archive.org/services/img/TalesOfTomorrow_S01E01" group-title="Series", Tales of Tomorrow - S01E02 - Blunder
+https://archive.org/download/TalesOfTomorrow_S01E02/TalesOfTomorrow_S01E02.mp4
+
+
+# --- THE ANDY GRIFFITH SHOW (1960) ---
+#EXTINF:-1 tvg-type="series" series-id="andy-griffith" tvg-logo="https://archive.org/services/img/AndyGriffith_S01E01" group-title="Series", The Andy Griffith Show - S01E01 - The New Housekeeper
+https://archive.org/download/AndyGriffith_S01E01/AndyGriffith_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="andy-griffith" tvg-logo="https://archive.org/services/img/AndyGriffith_S01E01" group-title="Series", The Andy Griffith Show - S01E02 - Manhunt
+https://archive.org/download/AndyGriffith_S01E02/AndyGriffith_S01E02.mp4
+
+
+# --- ALFRED HITCHCOCK PRESENTS (1955) ---
+#EXTINF:-1 tvg-type="series" series-id="alfred-hitchcock" tvg-logo="https://archive.org/services/img/AlfredHitchcock_S01E01" group-title="Series", Alfred Hitchcock Presents - S01E01 - Revenge
+https://archive.org/download/AlfredHitchcock_S01E01/AlfredHitchcock_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="alfred-hitchcock" tvg-logo="https://archive.org/services/img/AlfredHitchcock_S01E01" group-title="Series", Alfred Hitchcock Presents - S01E02 - Premonition
+https://archive.org/download/AlfredHitchcock_S01E02/AlfredHitchcock_S01E02.mp4
+
+
+# --- SUPERMAN (1952) ---
+#EXTINF:-1 tvg-type="series" series-id="superman-1952" tvg-logo="https://archive.org/services/img/Superman_S01E01" group-title="Series", Adventures of Superman - S01E01 - Superman on Earth
+https://archive.org/download/Superman_S01E01/Superman_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="superman-1952" tvg-logo="https://archive.org/services/img/Superman_S01E01" group-title="Series", Adventures of Superman - S01E02 - The Haunted Lighthouse
+https://archive.org/download/Superman_S01E02/Superman_S01E02.mp4
+
+
+# --- THE ADDAMS FAMILY (1964) ---
+#EXTINF:-1 tvg-type="series" series-id="addams-family" tvg-logo="https://archive.org/services/img/AddamsFamily_S01E01" group-title="Series", The Addams Family - S01E01 - The Addams Family Goes to School
+https://archive.org/download/AddamsFamily_S01E01/AddamsFamily_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="addams-family" tvg-logo="https://archive.org/services/img/AddamsFamily_S01E01" group-title="Series", The Addams Family - S01E02 - Morticia and the Psychiatrist
+https://archive.org/download/AddamsFamily_S01E02/AddamsFamily_S01E02.mp4
+
+
+# --- MAVERICK (1957) ---
+#EXTINF:-1 tvg-type="series" series-id="maverick" tvg-logo="https://archive.org/services/img/Maverick_S01E01" group-title="Series", Maverick - S01E01 - War of the Silver Kings
+https://archive.org/download/Maverick_S01E01/Maverick_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="maverick" tvg-logo="https://archive.org/services/img/Maverick_S01E01" group-title="Series", Maverick - S01E02 - Point Blank
+https://archive.org/download/Maverick_S01E02/Maverick_S01E02.mp4
+
+
+# --- PETTICOAT JUNCTION (1963) ---
+#EXTINF:-1 tvg-type="series" series-id="petticoat-junction" tvg-logo="https://archive.org/services/img/PetticoatJunction_S01E01" group-title="Series", Petticoat Junction - S01E01 - Spur of the Moment
+https://archive.org/download/PetticoatJunction_S01E01/PetticoatJunction_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="petticoat-junction" tvg-logo="https://archive.org/services/img/PetticoatJunction_S01E01" group-title="Series", Petticoat Junction - S01E02 - Quick, Hide the Railroad
+https://archive.org/download/PetticoatJunction_S01E02/PetticoatJunction_S01E02.mp4
+
+
+# --- BATMAN (1966) ---
+#EXTINF:-1 tvg-type="series" series-id="batman-1966" tvg-logo="https://archive.org/services/img/Batman1966_S01E01" group-title="Series", Batman - S01E01 - Hi Diddle Riddle
+https://archive.org/download/Batman1966_S01E01/Batman1966_S01E01.mp4
+
+#EXTINF:-1 tvg-type="series" series-id="batman-1966" tvg-logo="https://archive.org/services/img/Batman1966_S01E01" group-title="Series", Batman - S01E02 - Smack in the Middle
+https://archive.org/download/Batman1966_S01E02/Batman1966_S01E02.mp4
