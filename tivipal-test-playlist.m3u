@@ -1,0 +1,36 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml"
+
+# ============================================================
+# LIVE TV STREAMS (HLS / M3U8)
+# ============================================================
+
+#EXTINF:-1 tvg-id="" tvg-name="30A Golf" tvg-logo="https://30a-tv.com/images/30atvlogo.png" group-title="Live TV - Sports", 30A Golf Kingdom (720p)
+https://30a-tv.com/feeds/vidaa/golf.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Africa24 Sport" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", Africa 24 Sport (1080p)
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NASA TV" tvg-logo="https://i.imgur.com/G2KzN04.png" group-title="Live TV - News & Tech", NASA TV Public Stream
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+
+# ============================================================
+# MOVIES (VOD - STATIC MP4 LINKS)
+# ============================================================
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/young-frankenstein-colorized-1974-720p" group-title="Movies - Comedy", Young Frankenstein (Colorized, 1974)
+https://archive.org/download/young-frankenstein-colorized-1974-720p/Young%20Frankenstein%20%28Colorized%2C%201974%29%20720p.mp4
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/deadly-mantis-1957-colorized" group-title="Movies - Sci-Fi", Deadly Mantis (Colorized, 1957)
+https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957%20colorized.mp4
+
+
+# ============================================================
+# TV SERIES / SHOWS (VOD - EPISODIC STRUCTURE)
+# ============================================================
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series - Benson S01", S01E01 - Change
+https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E01_Change.mp4
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Series - Benson S01", S01E02 - Trust Me
+https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E02_Trust%20Me.mp4
