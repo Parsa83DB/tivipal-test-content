@@ -1,0 +1,39 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml"
+
+# ============================================================
+# LIVE TV STREAMS (HLS / M3U8)
+# ============================================================
+
+#EXTINF:-1 tvg-id="" tvg-name="30A Golf" tvg-logo="https://30a-tv.com/images/30atvlogo.png" group-title="Live TV - Sports", 30A Golf Kingdom (720p)
+https://30a-tv.com/feeds/vidaa/golf.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Africa24 Sport" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", Africa 24 Sport (1080p)
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NASA TV" tvg-logo="https://i.imgur.com/G2KzN04.png" group-title="Live TV - News & Tech", NASA TV Public Stream
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+
+# ============================================================
+# MOVIES (VOD - STATIC MP4 LINKS)
+# ============================================================
+
+#EXTINF:-1 tvg-logo="https://ia800301.us.archive.org/21/items/night_of_the_living_dead/night_of_the_living_dead.thumbs/night_of_the_living_dead_000001.jpg" group-title="Movies - Horror", Night of the Living Dead (1968)
+https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4
+
+#EXTINF:-1 tvg-logo="https://ia800305.us.archive.org/11/items/Charade1963/Charade1963.thumbs/Charade1963_000001.jpg" group-title="Movies - Thriller", Charade (1963)
+https://archive.org/download/Charade1963/Charade1963.mp4
+
+#EXTINF:-1 tvg-logo="https://ia800200.us.archive.org/1/items/HisGirlFriday1940/HisGirlFriday1940.thumbs/HisGirlFriday1940_000001.jpg" group-title="Movies - Comedy", His Girl Friday (1940)
+https://archive.org/download/HisGirlFriday1940/HisGirlFriday1940.mp4
+
+
+# ============================================================
+# TV SERIES / SHOWS (VOD - EPISODIC STRUCTURE)
+# ============================================================
+
+#EXTINF:-1 tvg-logo="https://ia800203.us.archive.org/3/items/Sherlock_Holmes_1954/Sherlock_Holmes_1954.thumbs/Sherlock_Holmes_1954_000001.jpg" group-title="Series - Sherlock Holmes S01", S01E01 - The Case of the Cunningham Heritage
+https://archive.org/download/Sherlock_Holmes_1954/Sherlock_Holmes_01_The_Case_of_the_Cunningham_Heritage_528k.mp4
+
+#EXTINF:-1 tvg-logo="https://ia800203.us.archive.org/3/items/Sherlock_Holmes_1954/Sherlock_Holmes_1954.thumbs/Sherlock_Holmes_1954_000001.jpg" group-title="Series - Sherlock Holmes S01", S01E02 - The Case of Lady Beryl
+https://archive.org/download/Sherlock_Holmes_1954/Sherlock_Holmes_02_The_Case_of_Lady_Beryl_528k.mp4
