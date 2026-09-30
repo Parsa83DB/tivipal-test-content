@@ -1,68 +1,52 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml"
+#EXTM3U
 
 # ============================================================
-# LIVE TV STREAMS (FREE TO AIR & FAST CHANNELS)
+# LIVE TV (verified reachable direct HLS streams)
 # ============================================================
 
-#EXTINF:-1 tvg-id="Bloomberg.us" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bloomberg_TV_logo.svg/512px-Bloomberg_TV_logo.svg.png" group-title="Live TV - News",Bloomberg Television
-https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="Live TV - Space", NASA TV Media
+https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 
-#EXTINF:-1 tvg-id="DW.de" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_2012.svg/512px-Deutsche_Welle_2012.svg.png" group-title="Live TV - News",DW English
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Bloomberg" tvg-logo="https://i.imgur.com/VnCcH73.png" group-title="Live TV - Business", Bloomberg TV
+https://www.bloomberg.com/media-manifest/streams/us.m3u8
 
-#EXTINF:-1 tvg-id="France24.fr" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/France_24_logo.svg/512px-France_24_logo.svg.png" group-title="Live TV - News",France 24 English
-https://static.france24.com/live/F24_EN_LO_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CGTN Documentary" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Live TV - Documentary", CGTN Documentary English
+https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 
-#EXTINF:-1 tvg-id="NASA.us" tvg-name="NASA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" group-title="Live TV - Science",NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-TV-Public/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="30A Golf" tvg-logo="https://30a-tv.com/images/30atvlogo.png" group-title="Live TV - Sports", 30A Golf Kingdom (720p)
+https://30a-tv.com/feeds/vidaa/golf.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Red Bull TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/30/Red_Bull_TV_logo.png" group-title="Live TV - Sports",Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoB-m2g-redbulltv/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Africa24 Sport" tvg-logo="https://i.imgur.com/8QZ3l1B.png" group-title="Live TV - Sports", Africa 24 Sport (1080p)
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
-
-# ============================================================
-# MOVIES (VOD - DIRECT DIRECT WORKING ARCHIVE.ORG MP4s)
-# ============================================================
-
-#EXTINF:-1 tvg-id="" tvg-name="Night of the Living Dead" tvg-logo="https://ia800501.us.archive.org/21/items/night_of_the_living_dead/night_of_the_living_dead.thumbs/night_of_the_living_dead_000001.jpg" group-title="Movies",Night of the Living Dead (1968)
-https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4
-
-#EXTINF:-1 tvg-id="" tvg-name="Charade" tvg-logo="https://ia800300.us.archive.org/2/items/Charade1963/Charade1963.thumbs/Charade1963_000001.jpg" group-title="Movies",Charade (1963)
-https://archive.org/download/Charade1963/Charade1963_512kb.mp4
-
-#EXTINF:-1 tvg-id="" tvg-name="The General" tvg-logo="https://ia800201.us.archive.org/19/items/TheGeneral_201602/TheGeneral_201602.thumbs/TheGeneral_201602_000001.jpg" group-title="Movies",The General (1926)
-https://archive.org/download/TheGeneral_201602/TheGeneral_201602.mp4
-
-#EXTINF:-1 tvg-id="" tvg-name="His Girl Friday" tvg-logo="https://ia800302.us.archive.org/1/items/his_girl_friday/his_girl_friday.thumbs/his_girl_friday_000001.jpg" group-title="Movies",His Girl Friday (1940)
-https://archive.org/download/his_girl_friday/his_girl_friday_512kb.mp4
-
-#EXTINF:-1 tvg-id="" tvg-name="House on Haunted Hill" tvg-logo="https://ia800301.us.archive.org/27/items/house_on_haunted_hill/house_on_haunted_hill.thumbs/house_on_haunted_hill_000001.jpg" group-title="Movies",House on Haunted Hill (1959)
-https://archive.org/download/house_on_haunted_hill/house_on_haunted_hill_512kb.mp4
+#EXTINF:-1 tvg-id="" tvg-name="HLS Test Pattern" tvg-logo="https://i.imgur.com/G2KzN04.png" group-title="Live TV - News & Tech", HLS Reference Test Stream
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
 
 # ============================================================
-# TV SERIES (VOD - PROPER SEASON/EPISODE METADATA & VALID LINKS)
+# MOVIES (VOD - direct MP4, verified reachable with byte-range support)
 # ============================================================
 
-# --- SHERLOCK HOLMES (1954) ---
-#EXTINF:-1 tvg-id="" tvg-name="Sherlock Holmes S01E01" series-id="sherlock-holmes-1954" season-number="1" episode-number="1" tvg-logo="https://ia800300.us.archive.org/34/items/sherlock_holmes_1954/sherlock_holmes_1954.thumbs/sherlock_holmes_1954_000001.jpg" group-title="Series - Sherlock Holmes",Sherlock Holmes - S01E01 - The Case of the Cunningham Heritage
-https://archive.org/download/sherlock_holmes_1954/Sherlock_Holmes_S01E01.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/young-frankenstein-colorized-1974-720p" group-title="Movies - Comedy", Young Frankenstein - Colorized 1974
+https://archive.org/download/young-frankenstein-colorized-1974-720p/Young%20Frankenstein%20%28Colorized%2C%201974%29%20720p.mp4
 
-#EXTINF:-1 tvg-id="" tvg-name="Sherlock Holmes S01E02" series-id="sherlock-holmes-1954" season-number="1" episode-number="2" tvg-logo="https://ia800300.us.archive.org/34/items/sherlock_holmes_1954/sherlock_holmes_1954.thumbs/sherlock_holmes_1954_000001.jpg" group-title="Series - Sherlock Holmes",Sherlock Holmes - S01E02 - The Case of Lady Beryl
-https://archive.org/download/sherlock_holmes_1954/Sherlock_Holmes_S01E02.mp4
-
-
-# --- THE BEVERLY HILLBILLIES (1962) ---
-#EXTINF:-1 tvg-id="" tvg-name="Beverly Hillbillies S01E01" series-id="beverly-hillbillies" season-number="1" episode-number="1" tvg-logo="https://ia800205.us.archive.org/18/items/BeverlyHillbilliesS01E01/BeverlyHillbilliesS01E01.thumbs/BeverlyHillbilliesS01E01_000001.jpg" group-title="Series - The Beverly Hillbillies",The Beverly Hillbillies - S01E01 - The Clampetts Strike Oil
-https://archive.org/download/BeverlyHillbilliesS01E01/BeverlyHillbilliesS01E01_512kb.mp4
-
-#EXTINF:-1 tvg-id="" tvg-name="Beverly Hillbillies S01E02" series-id="beverly-hillbillies" season-number="1" episode-number="2" tvg-logo="https://ia800205.us.archive.org/18/items/BeverlyHillbilliesS01E01/BeverlyHillbilliesS01E01.thumbs/BeverlyHillbilliesS01E01_000001.jpg" group-title="Series - The Beverly Hillbillies",The Beverly Hillbillies - S01E02 - Getting Settled
-https://archive.org/download/BeverlyHillbilliesS01E02/BeverlyHillbilliesS01E02_512kb.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/deadly-mantis-1957-colorized" group-title="Movies - Sci-Fi", Deadly Mantis - Colorized 1957
+https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957%20colorized.mp4
 
 
-# --- DRAGNET (1951) ---
-#EXTINF:-1 tvg-id="" tvg-name="Dragnet S01E01" series-id="dragnet-1951" season-number="1" episode-number="1" tvg-logo="https://ia800205.us.archive.org/2/items/Dragnet_S01E01/Dragnet_S01E01.thumbs/Dragnet_S01E01_000001.jpg" group-title="Series - Dragnet",Dragnet - S01E01 - The Human Bomb
-https://archive.org/download/Dragnet_S01E01/Dragnet_S01E01_512kb.mp4
+# ============================================================
+# TV SERIES (VOD - episodic. One group-title per show, ALL of that
+# show's episodes inside it — see App.rebuildM3UCategories /
+# DetailView._transformM3USeriesData for why this convention matters:
+# the app builds one series tile per group-title and reads season/
+# episode numbers from each entry's own "SxxExx" title.)
+# ============================================================
 
-#EXTINF:-1 tvg-id="" tvg-name="Dragnet S01E02" series-id="dragnet-1951" season-number="1" episode-number="2" tvg-logo="https://ia800205.us.archive.org/2/items/Dragnet_S01E01/Dragnet_S01E01.thumbs/Dragnet_S01E01_000001.jpg" group-title="Series - Dragnet",Dragnet - S01E02 - The Rifle
-https://archive.org/download/Dragnet_S01E02/Dragnet_S01E02_512kb.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Benson", S01E01 - Change
+https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E01_Change.mp4
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Benson", S01E02 - Trust Me
+https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E02_Trust%20Me.mp4
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Benson", S01E03 - The President's Double
+https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E03_The%20President%27s%20Double.mp4
