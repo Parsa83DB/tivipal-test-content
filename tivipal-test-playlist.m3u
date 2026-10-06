@@ -33,14 +33,16 @@ https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
 
 # ============================================================
-# MOVIES (VOD - direct MP4, verified reachable with byte-range support)
+# MOVIES (VOD - direct MP4 with byte-range support)
+# Blender Foundation open movies, released under Creative Commons Attribution (CC BY):
+# (c) Blender Foundation | www.blender.org  --  Tears of Steel: CC BY 3.0, Cosmos Laundromat: CC BY 4.0
 # ============================================================
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/young-frankenstein-colorized-1974-720p" group-title="Movies - Comedy", Young Frankenstein - Colorized 1974
-https://archive.org/download/young-frankenstein-colorized-1974-720p/Young%20Frankenstein%20%28Colorized%2C%201974%29%20720p.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/tearsofsteelblendervfxopenmovie800p" group-title="Movies - Sci-Fi", Tears of Steel (2012)
+https://archive.org/download/tearsofsteelblendervfxopenmovie800p/Tears%20of%20Steel%20-%20Blender%20VFX%20Open%20Movie%20800p.mp4
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/deadly-mantis-1957-colorized" group-title="Movies - Sci-Fi", Deadly Mantis - Colorized 1957
-https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957%20colorized.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/CosmosLaundromatFirstCycle" group-title="Movies - Animation", Cosmos Laundromat - First Cycle (2015)
+https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
 
 
 # ============================================================
@@ -49,13 +51,12 @@ https://archive.org/download/deadly-mantis-1957-colorized/Deadly%20Mantis%201957
 # DetailView._transformM3USeriesData for why this convention matters:
 # the app builds one series tile per group-title and reads season/
 # episode numbers from each entry's own "SxxExx" title.)
+# "Blender Open Movies": Big Buck Bunny (CC BY 3.0, (c) Blender Foundation),
+# Elephants Dream (CC BY 3.0, (c) Orange Open Movie Project / Blender Foundation).
 # ============================================================
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Benson", S01E01 - Change
-https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E01_Change.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/BigBuckBunny_124" group-title="Blender Open Movies", S01E01 - Big Buck Bunny
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
 
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Benson", S01E02 - Trust Me
-https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E02_Trust%20Me.mp4
-
-#EXTINF:-1 tvg-logo="https://archive.org/services/img/benson-complete-series-1979-1986" group-title="Benson", S01E03 - The President's Double
-https://archive.org/download/benson-complete-series-1979-1986/Season%201/Benson_S01E03_The%20President%27s%20Double.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/BigBuckBunny_124" group-title="Blender Open Movies", S01E02 - Elephants Dream
+https://archive.org/download/ElephantsDream/ed_hd.mp4
