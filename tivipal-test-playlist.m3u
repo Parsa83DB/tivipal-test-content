@@ -44,6 +44,18 @@ https://archive.org/download/tearsofsteelblendervfxopenmovie800p/Tears%20of%20St
 #EXTINF:-1 tvg-logo="https://archive.org/services/img/CosmosLaundromatFirstCycle" group-title="Movies - Animation", Cosmos Laundromat - First Cycle (2015)
 https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
 
+# Public-domain silent classics (Internet Archive items marked "Public Domain Mark 1.0").
+# Chosen because each is public domain in BOTH the UK/EU and the US (creators died before 1955 / works pre-1929):
+#   Nosferatu (1922, F. W. Murnau d.1931), A Trip to the Moon (1902, G. Melies d.1938), The Great Train Robbery (1903, E. S. Porter d.1941).
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/Nosferatu1922_58" group-title="Movies - Classics", Nosferatu (1922)
+https://archive.org/download/Nosferatu1922_58/Nosferatu-mid-3.mp4
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/le-voyage-dans-la-lune-1902-georges-melies" group-title="Movies - Classics", A Trip to the Moon (1902)
+https://archive.org/download/le-voyage-dans-la-lune-1902-georges-melies/Le%20Voyage%20Dans%20La%20Lune%20-%20%281902%29%20-%20Georges%20M%C3%A9li%C3%A8s.mp4
+
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/TheGreatTrainRobbery1903_201307" group-title="Movies - Classics", The Great Train Robbery (1903)
+https://archive.org/download/TheGreatTrainRobbery1903_201307/The%20Great%20Train%20Robbery%20%281903%29.mp4
+
 
 # ============================================================
 # TV SERIES (VOD - episodic. One group-title per show, ALL of that
